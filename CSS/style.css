@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    /* background-image: url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'); */
+    
     background-color: rgb(1, 49, 81);
     color: rgb(211, 211, 211);
     background-repeat: no-repeat;
@@ -20,16 +20,14 @@ body{
     height: 570px;
     margin-top: 5%;
     border-radius: 10px;
-    position: relative;
-    /* overflow: hidden; */
-    /* background-color: rgb(51, 51, 51); */
+    position: relative; 
     background-color: rgba(51, 51, 51);
     color: rgb(230, 230, 228);
     padding: 40px 15px 30px 15px;
 }
 
 .display {
-    /* border: 1px solid red; */
+   
     width: 100%;
     padding: 8px;
     height: 80px;
@@ -37,16 +35,15 @@ body{
     background-color:rgb(85, 85, 85);
     margin-bottom: 40px;
     overflow: hidden;
-    /* border: 1px solid rgba(230, 230, 228, 0.082); */
+    border: 1px solid rgba(230, 230, 228, 0.082);
 }
 
 .display .displaynum {
-    /* border: 1px solid green; */
-    /* float: right; */
+ 
     text-align: right;
     height: 100%;
     letter-spacing: 1.5px;
-   line-height: 60px;
+    line-height: 60px;
     
 }
 .display h2 {
@@ -54,20 +51,20 @@ body{
     transition: 0.5s ease-in-out;
 }
 .numpad {
-    /* border: 1px solid black; */
+  
     border-radius: 10px;
     height: 80%;
     position: relative;
 }
 
 .numpad .calcisign {
-    /* border: 1px solid green; */
+ 
     float: right;
     width: 25%;
     height: 100%;
     display: flex;
     flex-direction:column ;
-    /* padding: 20px; */
+
 }
 
 .numpad .calcisign p {
@@ -75,10 +72,9 @@ body{
 }
 
 .numpad .divrow {
-    /* border: 1px solid grey; */
+  
     width: 100%;
     height: fit-content;
-    /* padding: 20px; */
     display: flex; 
     flex-direction: row;
     margin-bottom: 5px; 
@@ -88,27 +84,19 @@ body{
 
 .numpad .divrow .buttons{
     text-align: center;
-    /* border: 1px solid black; */
     width: 90px;
     height: 60px;
-    /* margin-left: 10px; */
     cursor: pointer;
     margin-right: 5px;
     border-radius: 2px;
-    /* background-color: rgb(66, 65, 65); */
     background-color: rgba(66, 65, 65);
     
     
 }
-.buttons p #supscript {
-    /* font-size: 10px !important; */
-    /* border: 1px solid red; */
-}
+
 .smol p{
     font-size: 35px !important;
-    /* border: 1px solid red; */
     border-radius: 2px;
-  
     background-color: rgb(77, 74, 74);
 }
 i {
@@ -129,7 +117,7 @@ i {
 }
 
 .smol2 p{
-    /* border: 1px solid red; */
+
     border-radius: 2px;
     font-weight: 300;
     background-color: rgb(77, 74, 74);
@@ -145,19 +133,16 @@ i {
 .numpad .divrow .buttons p {
     font-size: 35px;
     height: 100%;
-    /* margin-top: 5px; */
-    /* border: 1px solid orange; */
 }
 
 .numpad .calcisign .signs {
-    /* border: 1px solid violet; */
+  
     text-align: center;
     width: 90px;
     height: 60px;
     cursor: pointer;
     margin: 0 auto;
     margin-bottom: 12px;
-    /* margin-right: 10px; */
     border-radius: 2px;
     background-color: rgb(50, 113, 146);
 }
@@ -165,8 +150,6 @@ i {
 .numpad .calcisign .signs p{
     font-size: 30px;
     height: 100%;
-    /* border: 1px solid orange; */
-    /* margin-top: 15px; */
 }
 
 .numpad .divrow .buttons.red {
@@ -183,14 +166,6 @@ i {
 }
 
 
-/* 
-@media only screen and (max-width:360px){
-    .main-div {
-        margin-top: 30%; 
-        transform: translateX(-4%);
-          
-    }
-} */
 @media only screen and (max-width:500px){
     .main-div {
         margin-top: 20%; 
