@@ -27,7 +27,7 @@ body{
 }
 
 .display {
-   
+    -webkit-user-select: none;  
     width: 100%;
     padding: 8px;
     height: 80px;
@@ -90,8 +90,7 @@ body{
     margin-right: 5px;
     border-radius: 2px;
     background-color: rgba(66, 65, 65);
-    
-    
+    -webkit-user-select: none;   
 }
 
 .smol p{
