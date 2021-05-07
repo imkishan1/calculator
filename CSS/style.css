@@ -89,7 +89,6 @@ body{
     height: fit-content;
     display: flex; 
     flex-direction: row;
-    margin-bottom: 5px; 
     align-items: center;
     justify-content: center;
 }
@@ -99,7 +98,7 @@ body{
     width: 90px;
     height: 60px;
     cursor: pointer;
-    margin-right: 5px;
+    margin:2px;
     border-radius: 2px;
     background-color: rgba(66, 65, 65);
     -webkit-user-select: none;   
@@ -145,7 +144,10 @@ i {
     font-size: 35px;
     height: 100%;
 }
-
+#onese {
+    font-size: 25px;
+    transform: translateY(8px);
+}
 .numpad .calcisign .signs {
   
     text-align: center;
